@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+
   # get 'home/index'
   get resources :posts
+  get resources :categories
   root :to => 'home#index'
 
 

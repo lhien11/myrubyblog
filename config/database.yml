@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: myrubyblog
-  username: rubyapp
-  password: <%= ENV['RUBYAPP_DATABASE_PASSWORD'] %>

@@ -1,4 +1,4 @@
-class PostsController < ApplicationController
+class CategoriesController < ApplicationController
   def index
   end
 
